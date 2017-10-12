@@ -4,7 +4,9 @@
 Code is a bit overcomment.
 To run type:
 
->gcc -Wall -pthread -o ringbuffertest.out main.c
+>cd src/
+
+>make
 
 >./ringbuffertest.out
 
