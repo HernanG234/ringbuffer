@@ -8,7 +8,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 //#include <time.h>
-//#include <stdio.h>
+#include <stdio.h>
 //#include <unistd.h> CHECK WITH GCC!
 
 #define true 1
