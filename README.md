@@ -6,6 +6,8 @@ To run type:
 
 >cd src/
 
+>mkdir obj
+
 >make
 
 >./ringbuffertest.out
