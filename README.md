@@ -4,9 +4,9 @@
 Code is a bit overcomment.
 To run type:
 
->gcc -Wall -pthread -o ringbuffertest.o main.c
+>gcc -Wall -pthread -o ringbuffertest.out main.c
 
->./ringbuffertest.o
+>./ringbuffertest.out
 
 #### Comments on behaviour
 
