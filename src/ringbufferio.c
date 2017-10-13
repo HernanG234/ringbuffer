@@ -1,5 +1,7 @@
-#include <ringbuffer.h>
-#include <ringbufferio.h>
+#include <stdio.h>
+
+#include "ringbuffer.h"
+#include "ringbufferio.h"
 
 void *rbwriter (void *arg){                 //RingBufferWriter, writes the contents of 'bufferw' in the ringbuffer 'b'
 				

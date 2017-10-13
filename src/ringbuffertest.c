@@ -6,15 +6,8 @@
  */
 
 #include <pthread.h>
-#include <semaphore.h>
-#include <ringbuffer.h>
-#include <ringbufferio.h>
-#include <time.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h> //CHECK WITH GCC!
-
-#define true 1
+#include "ringbuffer.h"
+#include "ringbufferio.h"
 
 ringbuffer *buffer;
 

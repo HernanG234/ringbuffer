@@ -1,4 +1,6 @@
-#include <ringbuffer.h>
+#include <stdlib.h>
+
+#include "ringbuffer.h"
 
 ringbuffer* initbuffer(int N){
 	ringbuffer *buffer = malloc(sizeof(ringbuffer));
