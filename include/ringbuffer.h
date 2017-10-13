@@ -16,8 +16,6 @@ typedef struct ringbuffer{
 	int in;
 	int out;
 	pthread_mutex_t lock;
-	pthread_mutex_t lockwr;
-	pthread_mutex_t lockre;
 	sem_t usedsem;
 	sem_t freesem;
 }ringbuffer;

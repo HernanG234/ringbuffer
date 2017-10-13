@@ -9,8 +9,6 @@ ringbuffer* initbuffer(int N){
 	buffer->in = 0;
 	buffer->out = 0;
 	pthread_mutex_init(&buffer->lock, NULL);
-	pthread_mutex_init(&buffer->lockwr, NULL);
-	pthread_mutex_init(&buffer->lockre, NULL);
 	sem_init (&buffer->usedsem, 0, 0);
 	sem_init (&buffer->freesem, 0, N);
 	return buffer;
