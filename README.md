@@ -4,13 +4,8 @@
 Code is a bit overcomment.
 To run type:
 
->cd src/
-
->mkdir obj
-
->make
-
->./ringbuffertest.out
+    make
+    ./ringbuffertest.out
 
 #### Comments on behaviour
 
